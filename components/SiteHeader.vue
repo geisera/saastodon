@@ -1,11 +1,11 @@
-<!-- ./components/SiteHeader.vue -->
+./components/SiteHeader.vue
 
 <template>
   <header class="site-header">
     <div class="wrapper">
       <NuxtLink to="/" class="no-underline">
         <figure class="site-logo">
-          <h1>Site</h1>
+          <h1>Saastodon</h1>
         </figure>
       </NuxtLink>
 
