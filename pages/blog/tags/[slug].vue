@@ -1,4 +1,4 @@
-<!-- ./pages/blog/tags/[slug].vue -->
+./pages/blog/tags/[slug].vue
 
 <script setup>
 // const print = (wareev) => {
