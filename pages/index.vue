@@ -3,7 +3,7 @@
   <main>
     <section class="hero-section">
       <header>
-        <h1 class="font-black text-8xl">Welcome to my Saastodon!</h1>
+        <h1 class="font-black text-8xl">Welcome to  Saastodon!</h1>
         <p>Take a look at <NuxtLink to="/blog">my blog</NuxtLink></p>
       </header>
     </section>
