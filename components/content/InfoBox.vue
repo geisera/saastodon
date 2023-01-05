@@ -1,4 +1,4 @@
-<!-- ./components/content/InfoBox.vue -->
+./components/content/InfoBox.vue
 
 <script setup>
 // import icons from HeroIcons

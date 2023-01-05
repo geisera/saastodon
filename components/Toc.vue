@@ -1,4 +1,4 @@
-<!-- ./components/Toc.vue -->
+./components/Toc.vue
 
 <script setup>
 // define links prop

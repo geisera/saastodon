@@ -1,4 +1,4 @@
-<!-- ./components/PrevNext.vue -->
+./components/PrevNext.vue
 
 <script setup>
 // import icons

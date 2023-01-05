@@ -1,4 +1,4 @@
-<!-- ./components/Tags.vue -->
+./components/Tags.vue
 
 <script setup>
 // import icon
