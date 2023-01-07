@@ -5,7 +5,7 @@ img: 'img/cover (1).JPG'
 tags: [Nuxt, Content, Learning, first]
 ---
 
-## My first blog post
+## My very first blog post
 
 Welcome to my first blog post using [content v2 module](https://content.nuxtjs.org/)
 
