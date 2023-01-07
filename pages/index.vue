@@ -4,7 +4,7 @@
     <section class="hero-section">
       <header>
         <h1 class="font-black text-8xl">Welcome!</h1>
-        <p>Take a look at <NuxtLink to="/blog">my blog</NuxtLink></p>
+        <p>Take a look at the <NuxtLink to="/blog">blog</NuxtLink></p>
       </header>
     </section>
   </main>
