@@ -22626,14 +22626,14 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __vite_ssr_import_0__.default
 
-  _push(`<main${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)} data-v-2a183b29><section class="hero-section" data-v-2a183b29><header data-v-2a183b29><h1 class="font-black text-8xl" data-v-2a183b29>Welcome!</h1><p data-v-2a183b29>Take a look at `)
+  _push(`<main${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)} data-v-2a183b29><section class="hero-section" data-v-2a183b29><header data-v-2a183b29><h1 class="font-black text-8xl" data-v-2a183b29>Welcome!</h1><p data-v-2a183b29>Take a look at the `)
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/blog" }, {
     default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`my blog`)
+        _push(`blog`)
       } else {
         return [
-          __vite_ssr_import_1__.createTextVNode("my blog")
+          __vite_ssr_import_1__.createTextVNode("blog")
         ]
       }
     }),
@@ -23355,14 +23355,14 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __vite_ssr_import_0__.default
 
-  _push(`<main${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)} data-v-2a183b29><section class="hero-section" data-v-2a183b29><header data-v-2a183b29><h1 class="font-black text-8xl" data-v-2a183b29>Welcome!</h1><p data-v-2a183b29>Take a look at `)
+  _push(`<main${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)} data-v-2a183b29><section class="hero-section" data-v-2a183b29><header data-v-2a183b29><h1 class="font-black text-8xl" data-v-2a183b29>Welcome!</h1><p data-v-2a183b29>Take a look at the `)
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/blog" }, {
     default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`my blog`)
+        _push(`blog`)
       } else {
         return [
-          __vite_ssr_import_1__.createTextVNode("my blog")
+          __vite_ssr_import_1__.createTextVNode("blog")
         ]
       }
     }),
@@ -24183,6 +24183,18 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
       } else {
         return [
           __vite_ssr_import_1__.createTextVNode("Blog")
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/about" }, {
+    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`About`)
+      } else {
+        return [
+          __vite_ssr_import_1__.createTextVNode("About")
         ]
       }
     }),
