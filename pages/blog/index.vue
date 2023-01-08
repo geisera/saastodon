@@ -1,4 +1,3 @@
-<!-- ./pages/blog/index.vue -->
 
 <script setup>
 definePageMeta({
@@ -14,18 +13,19 @@ const filter = ref(tags?.split(","));
 
 // set meta for page
 useHead({
-  title: "All articles",
-  meta: [{ name: "description", content: "Here's a list of all my great articles" }],
+  title: "Saastodon",
+  meta: [{ name: "description", content: "Latest from the world of SaaS" }],
 });
 </script>
 <template>
   <main>
-    <header class="page-heading">
+    <!-- <header class="page-heading">
       <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">All articles</h1>
-        <p class="font-medium text-lg">Here's a list of all my great articles</p>
+        <h1 class="text-5xl font-extrabold">Saastodon</h1>
+        <p class="font-medium text-lg">The big guy in SaaS</p>
       </div>
-    </header>
+    </header> -->
+    <Hero />
     <section class="page-section">
       <Tags />
 

@@ -2,6 +2,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'InfoBox': typeof import("../components/content/InfoBox.vue")['default'],
+    'Hero': typeof import("../components/Hero.vue")['default'],
     'PrevNext': typeof import("../components/PrevNext.vue")['default'],
     'SiteHeader': typeof import("../components/SiteHeader.vue")['default'],
     'Tags': typeof import("../components/Tags.vue")['default'],
@@ -44,6 +45,7 @@ declare module 'vue' {
     'ServerPlaceholder': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyInfoBox': typeof import("../components/content/InfoBox.vue")['default'],
+    'LazyHero': typeof import("../components/Hero.vue")['default'],
     'LazyPrevNext': typeof import("../components/PrevNext.vue")['default'],
     'LazySiteHeader': typeof import("../components/SiteHeader.vue")['default'],
     'LazyTags': typeof import("../components/Tags.vue")['default'],
@@ -88,6 +90,7 @@ declare module 'vue' {
   }
 }
 export const InfoBox: typeof import("../components/content/InfoBox.vue")['default']
+export const Hero: typeof import("../components/Hero.vue")['default']
 export const PrevNext: typeof import("../components/PrevNext.vue")['default']
 export const SiteHeader: typeof import("../components/SiteHeader.vue")['default']
 export const Tags: typeof import("../components/Tags.vue")['default']
@@ -130,6 +133,7 @@ export const ClientOnly: typeof import("../node_modules/nuxt/dist/app/components
 export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyInfoBox: typeof import("../components/content/InfoBox.vue")['default']
+export const LazyHero: typeof import("../components/Hero.vue")['default']
 export const LazyPrevNext: typeof import("../components/PrevNext.vue")['default']
 export const LazySiteHeader: typeof import("../components/SiteHeader.vue")['default']
 export const LazyTags: typeof import("../components/Tags.vue")['default']

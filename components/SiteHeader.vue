@@ -13,7 +13,7 @@
         <ul class="links">
           <li class="link">
             <NuxtLink to="/blog">Blog</NuxtLink>
-            <NuxtLink to="/about">About</NuxtLink>
+            <span> | </span>
           </li>
         </ul>
       </nav>

@@ -11,7 +11,7 @@ const {
 } = useRoute();
 
 const filter = slug.split(",");
-console.log({ filter });
+//console.log({ filter });
 
 
 // set meta for page
@@ -24,8 +24,8 @@ useHead({
   <main>
     <header class="page-heading">
       <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">All articles with "{{ slug }}"</h1>
-        <p class="font-medium text-lg">Here's a list of all my great articles</p>
+        <h1 class="text-5xl font-extrabold">Saastodon</h1>
+        <p class="font-medium text-lg">Articles tagged with "{{ slug }}"</p>
       </div>
     </header>
     <section class="page-section">
