@@ -4,7 +4,7 @@
       <div class="lg:w-0 lg:flex-1">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" id="newsletter-headline">Be the hero of your SaaS company.</h2>
         <p class="mt-3 max-w-3xl text-lg leading-6 text-gray-600">
-          Boiled down, actionable startegies for higher value, higher retention, and higher returns.  
+          Boiled down, actionable strategies for higher value, higher retention, and higher returns.  
         </p>
       </div>
       <div class="mt-8 lg:mt-0 lg:ml-8">

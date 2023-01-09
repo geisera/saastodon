@@ -9,7 +9,7 @@ const expanded = ref(false);
 
 // helper function to flatten tags array
 const flatten = (tags, key) => {
-  console.log(tags);
+  //console.log(tags);
 
   let _tags = tags
     .map((tag) => {
@@ -22,7 +22,7 @@ const flatten = (tags, key) => {
     })
     .flat(1);
 
-  console.log({ _tags });
+  //console.log({ _tags });
 
   return _tags;
 };
@@ -38,7 +38,7 @@ const { data } = await useAsyncData("tags", () => queryContent("blog").only(["ta
 // generate array without duplicates from flattened array
 const articleTags = [...new Set(flatten(data.value, "tags"))];
 
-console.log({ articleTags });
+//console.log({ articleTags });
 </script>
 <template>
   <div class="tag-list" :class="{ active: expanded }">
