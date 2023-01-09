@@ -24231,7 +24231,7 @@ const _sfc_main = {
   expose();
 
     
-const __returned__ = { get Disclosure() { return __vite_ssr_import_0__.Disclosure }, get DisclosureButton() { return __vite_ssr_import_0__.DisclosureButton }, get DisclosurePanel() { return __vite_ssr_import_0__.DisclosurePanel }, get Menu() { return __vite_ssr_import_0__.Menu }, get MenuButton() { return __vite_ssr_import_0__.MenuButton }, get MenuItem() { return __vite_ssr_import_0__.MenuItem }, get MenuItems() { return __vite_ssr_import_0__.MenuItems }, get Bars3Icon() { return __vite_ssr_import_1__.Bars3Icon }, get BellIcon() { return __vite_ssr_import_1__.BellIcon }, get XMarkIcon() { return __vite_ssr_import_1__.XMarkIcon }, get PlusIcon() { return __vite_ssr_import_2__.PlusIcon } }
+const __returned__ = { get Disclosure() { return __vite_ssr_import_0__.Disclosure }, get DisclosureButton() { return __vite_ssr_import_0__.DisclosureButton }, get DisclosurePanel() { return __vite_ssr_import_0__.DisclosurePanel }, get Menu() { return __vite_ssr_import_0__.Menu }, get MenuButton() { return __vite_ssr_import_0__.MenuButton }, get MenuItem() { return __vite_ssr_import_0__.MenuItem }, get MenuItems() { return __vite_ssr_import_0__.MenuItems }, get MenuIcon() { return __vite_ssr_import_1__.MenuIcon }, get BellIcon() { return __vite_ssr_import_1__.BellIcon }, get XIcon() { return __vite_ssr_import_1__.XIcon }, get PlusIcon() { return __vite_ssr_import_2__.PlusIcon } }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -24263,12 +24263,12 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
             if (_push) {
               _push(`<span class="sr-only" data-v-cfc91daa${_scopeId}>Open main menu</span>`)
               if (!open) {
-                _push(__vite_ssr_import_4__.ssrRenderComponent($setup["Bars3Icon"], {
+                _push(__vite_ssr_import_4__.ssrRenderComponent($setup["MenuIcon"], {
                   class: "block h-6 w-6",
                   "aria-hidden": "true"
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_4__.ssrRenderComponent($setup["XMarkIcon"], {
+                _push(__vite_ssr_import_4__.ssrRenderComponent($setup["XIcon"], {
                   class: "block h-6 w-6",
                   "aria-hidden": "true"
                 }, null, _parent, _scopeId))
@@ -24277,12 +24277,12 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
               return [
                 __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Open main menu"),
                 (!open)
-                  ? (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["Bars3Icon"], {
+                  ? (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["MenuIcon"], {
                       key: 0,
                       class: "block h-6 w-6",
                       "aria-hidden": "true"
                     }))
-                  : (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["XMarkIcon"], {
+                  : (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["XIcon"], {
                       key: 1,
                       class: "block h-6 w-6",
                       "aria-hidden": "true"
@@ -24329,12 +24329,12 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_3__.withCtx(() => [
                       __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Open main menu"),
                       (!open)
-                        ? (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["Bars3Icon"], {
+                        ? (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["MenuIcon"], {
                             key: 0,
                             class: "block h-6 w-6",
                             "aria-hidden": "true"
                           }))
-                        : (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["XMarkIcon"], {
+                        : (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["XIcon"], {
                             key: 1,
                             class: "block h-6 w-6",
                             "aria-hidden": "true"

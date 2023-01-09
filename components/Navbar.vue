@@ -7,8 +7,8 @@
               <!-- Mobile menu button -->
               <DisclosureButton class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                 <span class="sr-only">Open main menu</span>
-                <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-                <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
+                <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
+                <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
               </DisclosureButton>
             </div>
             <div class="flex flex-shrink-0 items-center">
@@ -37,7 +37,7 @@
 
 <script setup>
     import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-    import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/outline'
+    import { MenuIcon, BellIcon, XIcon } from '@heroicons/vue/outline'
     import { PlusIcon } from '@heroicons/vue/solid'
 </script>
 
