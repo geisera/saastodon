@@ -1,7 +1,7 @@
 ./app.vue
 <template>
   <div>
-    <SiteHeader />
+    <Navbar />
     <NuxtPage />
   </div>
 </template>

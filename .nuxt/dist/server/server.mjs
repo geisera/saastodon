@@ -622,7 +622,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
-// - /components/SiteHeader.vue ($id_01340d67)
+// - /components/Navbar.vue ($id_59150d95)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -1885,7 +1885,6 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtLink", { enumerable: true
 // - /pages/blog/tags/[slug].vue ($id_399653d9)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
-// - /components/SiteHeader.vue ($id_01340d67)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
@@ -2103,7 +2102,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/main.css");
 
 // --------------------
 const $id_f8b2993b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap\");\n/*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-feature-settings:normal;font-family:Satoshi,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.prose{color:var(--tw-prose-body);max-width:65ch}.prose :where([class~=lead]):not(:where([class~=not-prose] *)){color:var(--tw-prose-lead);font-size:1.25em;line-height:1.6;margin-bottom:1.2em;margin-top:1.2em}.prose :where(a):not(:where([class~=not-prose] *)){color:var(--tw-prose-links);font-weight:500;text-decoration:underline}.prose :where(strong):not(:where([class~=not-prose] *)){color:var(--tw-prose-bold);font-weight:600}.prose :where(ol):not(:where([class~=not-prose] *)){list-style-type:decimal;padding-left:1.625em}.prose :where(ol[type=A]):not(:where([class~=not-prose] *)){list-style-type:upper-alpha}.prose :where(ol[type=a]):not(:where([class~=not-prose] *)){list-style-type:lower-alpha}.prose :where(ol[type=A s]):not(:where([class~=not-prose] *)){list-style-type:upper-alpha}.prose :where(ol[type=a s]):not(:where([class~=not-prose] *)){list-style-type:lower-alpha}.prose :where(ol[type=I]):not(:where([class~=not-prose] *)){list-style-type:upper-roman}.prose :where(ol[type=i]):not(:where([class~=not-prose] *)){list-style-type:lower-roman}.prose :where(ol[type=I s]):not(:where([class~=not-prose] *)){list-style-type:upper-roman}.prose :where(ol[type=i s]):not(:where([class~=not-prose] *)){list-style-type:lower-roman}.prose :where(ol[type=\"1\"]):not(:where([class~=not-prose] *)){list-style-type:decimal}.prose :where(ul):not(:where([class~=not-prose] *)){list-style-type:disc;padding-left:1.625em}.prose :where(ol>li):not(:where([class~=not-prose] *))::marker{color:var(--tw-prose-counters);font-weight:400}.prose :where(ul>li):not(:where([class~=not-prose] *))::marker{color:var(--tw-prose-bullets)}.prose :where(hr):not(:where([class~=not-prose] *)){border-color:var(--tw-prose-hr);border-top-width:1px;margin-bottom:3em;margin-top:3em}.prose :where(blockquote):not(:where([class~=not-prose] *)){border-left-color:var(--tw-prose-quote-borders);border-left-width:.25rem;color:var(--tw-prose-quotes);font-style:italic;font-weight:500;margin-bottom:1.6em;margin-top:1.6em;padding-left:1em;quotes:\"\\201C\"\"\\201D\"\"\\2018\"\"\\2019\"}.prose :where(blockquote p:first-of-type):not(:where([class~=not-prose] *)):before{content:open-quote}.prose :where(blockquote p:last-of-type):not(:where([class~=not-prose] *)):after{content:close-quote}.prose :where(h1):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-size:2.25em;font-weight:800;line-height:1.1111111;margin-bottom:.8888889em;margin-top:0}.prose :where(h1 strong):not(:where([class~=not-prose] *)){font-weight:900}.prose :where(h2):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-size:1.5em;font-weight:700;line-height:1.3333333;margin-bottom:1em;margin-top:2em}.prose :where(h2 strong):not(:where([class~=not-prose] *)){font-weight:800}.prose :where(h3):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-size:1.25em;font-weight:600;line-height:1.6;margin-bottom:.6em;margin-top:1.6em}.prose :where(h3 strong):not(:where([class~=not-prose] *)){font-weight:700}.prose :where(h4):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-weight:600;line-height:1.5;margin-bottom:.5em;margin-top:1.5em}.prose :where(h4 strong):not(:where([class~=not-prose] *)){font-weight:700}.prose :where(figure>*):not(:where([class~=not-prose] *)){margin-bottom:0;margin-top:0}.prose :where(figcaption):not(:where([class~=not-prose] *)){color:var(--tw-prose-captions);font-size:.875em;line-height:1.4285714;margin-top:.8571429em}.prose :where(code):not(:where([class~=not-prose] *)){color:var(--tw-prose-code);font-size:.875em;font-weight:600}.prose :where(code):not(:where([class~=not-prose] *)):before{content:\"`\"}.prose :where(code):not(:where([class~=not-prose] *)):after{content:\"`\"}.prose :where(a code):not(:where([class~=not-prose] *)){color:var(--tw-prose-links)}.prose :where(pre):not(:where([class~=not-prose] *)){background-color:var(--tw-prose-pre-bg);border-radius:.375rem;color:var(--tw-prose-pre-code);font-size:.875em;font-weight:400;line-height:1.7142857;margin-bottom:1.7142857em;margin-top:1.7142857em;overflow-x:auto;padding:.8571429em 1.1428571em}.prose :where(pre code):not(:where([class~=not-prose] *)){background-color:transparent;border-radius:0;border-width:0;color:inherit;font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;padding:0}.prose :where(pre code):not(:where([class~=not-prose] *)):before{content:none}.prose :where(pre code):not(:where([class~=not-prose] *)):after{content:none}.prose :where(table):not(:where([class~=not-prose] *)){font-size:.875em;line-height:1.7142857;margin-bottom:2em;margin-top:2em;table-layout:auto;text-align:left;width:100%}.prose :where(thead):not(:where([class~=not-prose] *)){border-bottom-color:var(--tw-prose-th-borders);border-bottom-width:1px}.prose :where(thead th):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-weight:600;padding-bottom:.5714286em;padding-left:.5714286em;padding-right:.5714286em;vertical-align:bottom}.prose :where(tbody tr):not(:where([class~=not-prose] *)){border-bottom-color:var(--tw-prose-td-borders);border-bottom-width:1px}.prose :where(tbody tr:last-child):not(:where([class~=not-prose] *)){border-bottom-width:0}.prose :where(tbody td):not(:where([class~=not-prose] *)){padding:.5714286em;vertical-align:baseline}.prose{--tw-prose-body:#374151;--tw-prose-headings:#111827;--tw-prose-lead:#4b5563;--tw-prose-links:#111827;--tw-prose-bold:#111827;--tw-prose-counters:#6b7280;--tw-prose-bullets:#d1d5db;--tw-prose-hr:#e5e7eb;--tw-prose-quotes:#111827;--tw-prose-quote-borders:#e5e7eb;--tw-prose-captions:#6b7280;--tw-prose-code:#111827;--tw-prose-pre-code:#e5e7eb;--tw-prose-pre-bg:#1f2937;--tw-prose-th-borders:#d1d5db;--tw-prose-td-borders:#e5e7eb;--tw-prose-invert-body:#d1d5db;--tw-prose-invert-headings:#fff;--tw-prose-invert-lead:#9ca3af;--tw-prose-invert-links:#fff;--tw-prose-invert-bold:#fff;--tw-prose-invert-counters:#9ca3af;--tw-prose-invert-bullets:#4b5563;--tw-prose-invert-hr:#374151;--tw-prose-invert-quotes:#f3f4f6;--tw-prose-invert-quote-borders:#374151;--tw-prose-invert-captions:#9ca3af;--tw-prose-invert-code:#fff;--tw-prose-invert-pre-code:#d1d5db;--tw-prose-invert-pre-bg:rgba(0,0,0,.5);--tw-prose-invert-th-borders:#4b5563;--tw-prose-invert-td-borders:#374151;font-size:1rem;line-height:1.75}.prose :where(p):not(:where([class~=not-prose] *)){margin-bottom:1.25em;margin-top:1.25em}.prose :where(img):not(:where([class~=not-prose] *)){margin-bottom:2em;margin-top:2em}.prose :where(video):not(:where([class~=not-prose] *)){margin-bottom:2em;margin-top:2em}.prose :where(figure):not(:where([class~=not-prose] *)){margin-bottom:2em;margin-top:2em}.prose :where(h2 code):not(:where([class~=not-prose] *)){font-size:.875em}.prose :where(h3 code):not(:where([class~=not-prose] *)){font-size:.9em}.prose :where(li):not(:where([class~=not-prose] *)){margin-bottom:.5em;margin-top:.5em}.prose :where(ol>li):not(:where([class~=not-prose] *)){padding-left:.375em}.prose :where(ul>li):not(:where([class~=not-prose] *)){padding-left:.375em}.prose>:where(ul>li p):not(:where([class~=not-prose] *)){margin-bottom:.75em;margin-top:.75em}.prose>:where(ul>li>:first-child):not(:where([class~=not-prose] *)){margin-top:1.25em}.prose>:where(ul>li>:last-child):not(:where([class~=not-prose] *)){margin-bottom:1.25em}.prose>:where(ol>li>:first-child):not(:where([class~=not-prose] *)){margin-top:1.25em}.prose>:where(ol>li>:last-child):not(:where([class~=not-prose] *)){margin-bottom:1.25em}.prose :where(ul ul,ul ol,ol ul,ol ol):not(:where([class~=not-prose] *)){margin-bottom:.75em;margin-top:.75em}.prose :where(hr+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(h2+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(h3+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(h4+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(thead th:first-child):not(:where([class~=not-prose] *)){padding-left:0}.prose :where(thead th:last-child):not(:where([class~=not-prose] *)){padding-right:0}.prose :where(tbody td:first-child):not(:where([class~=not-prose] *)){padding-left:0}.prose :where(tbody td:last-child):not(:where([class~=not-prose] *)){padding-right:0}.prose>:where(:first-child):not(:where([class~=not-prose] *)){margin-top:0}.prose>:where(:last-child):not(:where([class~=not-prose] *)){margin-bottom:0}.sr-only{clip:rect(0,0,0,0);border-width:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.sticky{position:-webkit-sticky;position:sticky}.top-0{top:0}.col-span-full{grid-column:1/-1}.row-start-1{grid-row-start:1}.mx-auto{margin-left:auto;margin-right:auto}.mt-8{margin-top:2rem}.ml-3{margin-left:.75rem}.mb-2{margin-bottom:.5rem}.mb-12{margin-bottom:3rem}.mt-3{margin-top:.75rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.contents{display:contents}.h-screen{height:100vh}.h-72{height:18rem}.max-h-\\[calc\\(100vh-6rem\\)\\]{max-height:calc(100vh - 6rem)}.max-h-\\[8rem\\]{max-height:8rem}.w-full{width:100%}.w-32{width:8rem}.max-w-7xl{max-width:80rem}.max-w-6xl{max-width:72rem}.max-w-0{max-width:0}.max-w-5xl{max-width:64rem}.max-w-3xl{max-width:48rem}.shrink-0{flex-shrink:0}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.gap-2{gap:.5rem}.rounded-md{border-radius:.375rem}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-b{border-bottom-width:1px}.border-transparent{border-color:transparent}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-yellow-400{--tw-border-opacity:1;border-color:rgb(250 204 21/var(--tw-border-opacity))}.border-red-400{--tw-border-opacity:1;border-color:rgb(248 113 113/var(--tw-border-opacity))}.border-opacity-30{--tw-border-opacity:0.3}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-indigo-100{--tw-bg-opacity:1;background-color:rgb(224 231 255/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-red-200{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-opacity-40{--tw-bg-opacity:0.4}.p-4{padding:1rem}.p-2{padding:.5rem}.py-12{padding-bottom:3rem;padding-top:3rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.\\!py-0\\.5{padding-bottom:.125rem!important;padding-top:.125rem!important}.\\!py-0{padding-bottom:0!important;padding-top:0!important}.pb-2{padding-bottom:.5rem}.pt-2{padding-top:.5rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-8xl{font-size:6rem;line-height:1}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-sm{font-size:.875rem;line-height:1.25rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-black{font-weight:900}.font-semibold{font-weight:600}.font-extrabold{font-weight:800}.leading-tight{line-height:1.25}.leading-6{line-height:1.5rem}.tracking-tight{letter-spacing:-.025em}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-indigo-700{--tw-text-opacity:1;color:rgb(67 56 202/var(--tw-text-opacity))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.placeholder-gray-500::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity))}.placeholder-gray-500:-ms-input-placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity))}.placeholder-gray-500::placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}*{scroll-margin:5rem}html{scroll-behavior:smooth}body{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}a{text-decoration:none}h1,h2,h3,h4,h5,h6{font-family:Cabinet Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}.icon{display:inline-flex;height:1.5rem;width:1.5rem}.icon.solid{fill:#64748b}.icon.stroke{stroke:#64748b}.cta{--tw-border-opacity:1;--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity));border-color:rgb(226 232 240/var(--tw-border-opacity));border-radius:.5rem;border-width:1px;font-weight:600;padding:.375rem .5rem;transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.cta:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cta:focus{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.cta:active{--tw-translate-y:0.125rem;--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cta.w-icon{align-items:center;display:flex;gap:.5rem;padding-right:.75rem}.img-cont img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.article-tags{display:flex;gap:.5rem;padding-bottom:.5rem;padding-top:.5rem}.article-tags .tag{--tw-bg-opacity:1;--tw-text-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity));border-radius:.375rem;color:rgb(51 65 85/var(--tw-text-opacity));font-size:.875rem;line-height:1.25rem;padding:.5rem;padding-bottom:.125rem!important;padding-top:.125rem!important;transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.article-tags .tag:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.page-heading{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity));padding:3rem}.page-heading>.wrapper,.page-section{margin:auto;max-width:48rem}.page-section{padding:2rem 1rem}.article-list{display:flex;flex-direction:column;gap:1.5rem}.article-item{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity));border-top-width:1px;padding-top:1.5rem}.article-item:first-of-type{border-style:none}.article-item a{-webkit-text-decoration-line:none;text-decoration-line:none}.article-item>*>.wrapper{align-items:flex-start;display:flex;gap:1rem}.hover\\:bg-indigo-700:hover{--tw-bg-opacity:1;background-color:rgb(67 56 202/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-indigo-600:hover{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.hover\\:bg-red-600:hover{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.focus\\:border-white:focus{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 #0000;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-white:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.focus\\:ring-indigo-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(99 102 241/var(--tw-ring-opacity))}.focus\\:ring-red-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(239 68 68/var(--tw-ring-opacity))}.focus\\:ring-offset-2:focus{--tw-ring-offset-width:2px}.focus\\:ring-offset-gray-800:focus{--tw-ring-offset-color:#1f2937}@media (min-width:640px){.sm\\:mt-0{margin-top:0}.sm\\:ml-3{margin-left:.75rem}.sm\\:flex{display:flex}.sm\\:max-w-xs{max-width:20rem}.sm\\:flex-shrink-0{flex-shrink:0}.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width:768px){.md\\:col-span-2{grid-column:span 2/span 2}.md\\:col-span-6{grid-column:span 6/span 6}.md\\:col-start-1{grid-column-start:1}.md\\:row-start-1{grid-row-start:1}.md\\:py-16{padding-bottom:4rem;padding-top:4rem}}@media (min-width:1024px){.lg\\:mt-0{margin-top:0}.lg\\:ml-8{margin-left:2rem}.lg\\:flex{display:flex}.lg\\:w-0{width:0}.lg\\:flex-1{flex:1 1 0%}.lg\\:items-center{align-items:center}.lg\\:px-8{padding-left:2rem;padding-right:2rem}.lg\\:py-20{padding-bottom:5rem;padding-top:5rem}.lg\\:py-16{padding-bottom:4rem;padding-top:4rem}}";
+__vite_ssr_exports__.default = "@import url(\"https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap\");\n/*! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-feature-settings:normal;font-family:Satoshi,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.prose{color:var(--tw-prose-body);max-width:65ch}.prose :where([class~=lead]):not(:where([class~=not-prose] *)){color:var(--tw-prose-lead);font-size:1.25em;line-height:1.6;margin-bottom:1.2em;margin-top:1.2em}.prose :where(a):not(:where([class~=not-prose] *)){color:var(--tw-prose-links);font-weight:500;text-decoration:underline}.prose :where(strong):not(:where([class~=not-prose] *)){color:var(--tw-prose-bold);font-weight:600}.prose :where(ol):not(:where([class~=not-prose] *)){list-style-type:decimal;padding-left:1.625em}.prose :where(ol[type=A]):not(:where([class~=not-prose] *)){list-style-type:upper-alpha}.prose :where(ol[type=a]):not(:where([class~=not-prose] *)){list-style-type:lower-alpha}.prose :where(ol[type=A s]):not(:where([class~=not-prose] *)){list-style-type:upper-alpha}.prose :where(ol[type=a s]):not(:where([class~=not-prose] *)){list-style-type:lower-alpha}.prose :where(ol[type=I]):not(:where([class~=not-prose] *)){list-style-type:upper-roman}.prose :where(ol[type=i]):not(:where([class~=not-prose] *)){list-style-type:lower-roman}.prose :where(ol[type=I s]):not(:where([class~=not-prose] *)){list-style-type:upper-roman}.prose :where(ol[type=i s]):not(:where([class~=not-prose] *)){list-style-type:lower-roman}.prose :where(ol[type=\"1\"]):not(:where([class~=not-prose] *)){list-style-type:decimal}.prose :where(ul):not(:where([class~=not-prose] *)){list-style-type:disc;padding-left:1.625em}.prose :where(ol>li):not(:where([class~=not-prose] *))::marker{color:var(--tw-prose-counters);font-weight:400}.prose :where(ul>li):not(:where([class~=not-prose] *))::marker{color:var(--tw-prose-bullets)}.prose :where(hr):not(:where([class~=not-prose] *)){border-color:var(--tw-prose-hr);border-top-width:1px;margin-bottom:3em;margin-top:3em}.prose :where(blockquote):not(:where([class~=not-prose] *)){border-left-color:var(--tw-prose-quote-borders);border-left-width:.25rem;color:var(--tw-prose-quotes);font-style:italic;font-weight:500;margin-bottom:1.6em;margin-top:1.6em;padding-left:1em;quotes:\"\\201C\"\"\\201D\"\"\\2018\"\"\\2019\"}.prose :where(blockquote p:first-of-type):not(:where([class~=not-prose] *)):before{content:open-quote}.prose :where(blockquote p:last-of-type):not(:where([class~=not-prose] *)):after{content:close-quote}.prose :where(h1):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-size:2.25em;font-weight:800;line-height:1.1111111;margin-bottom:.8888889em;margin-top:0}.prose :where(h1 strong):not(:where([class~=not-prose] *)){font-weight:900}.prose :where(h2):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-size:1.5em;font-weight:700;line-height:1.3333333;margin-bottom:1em;margin-top:2em}.prose :where(h2 strong):not(:where([class~=not-prose] *)){font-weight:800}.prose :where(h3):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-size:1.25em;font-weight:600;line-height:1.6;margin-bottom:.6em;margin-top:1.6em}.prose :where(h3 strong):not(:where([class~=not-prose] *)){font-weight:700}.prose :where(h4):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-weight:600;line-height:1.5;margin-bottom:.5em;margin-top:1.5em}.prose :where(h4 strong):not(:where([class~=not-prose] *)){font-weight:700}.prose :where(figure>*):not(:where([class~=not-prose] *)){margin-bottom:0;margin-top:0}.prose :where(figcaption):not(:where([class~=not-prose] *)){color:var(--tw-prose-captions);font-size:.875em;line-height:1.4285714;margin-top:.8571429em}.prose :where(code):not(:where([class~=not-prose] *)){color:var(--tw-prose-code);font-size:.875em;font-weight:600}.prose :where(code):not(:where([class~=not-prose] *)):before{content:\"`\"}.prose :where(code):not(:where([class~=not-prose] *)):after{content:\"`\"}.prose :where(a code):not(:where([class~=not-prose] *)){color:var(--tw-prose-links)}.prose :where(pre):not(:where([class~=not-prose] *)){background-color:var(--tw-prose-pre-bg);border-radius:.375rem;color:var(--tw-prose-pre-code);font-size:.875em;font-weight:400;line-height:1.7142857;margin-bottom:1.7142857em;margin-top:1.7142857em;overflow-x:auto;padding:.8571429em 1.1428571em}.prose :where(pre code):not(:where([class~=not-prose] *)){background-color:transparent;border-radius:0;border-width:0;color:inherit;font-family:inherit;font-size:inherit;font-weight:inherit;line-height:inherit;padding:0}.prose :where(pre code):not(:where([class~=not-prose] *)):before{content:none}.prose :where(pre code):not(:where([class~=not-prose] *)):after{content:none}.prose :where(table):not(:where([class~=not-prose] *)){font-size:.875em;line-height:1.7142857;margin-bottom:2em;margin-top:2em;table-layout:auto;text-align:left;width:100%}.prose :where(thead):not(:where([class~=not-prose] *)){border-bottom-color:var(--tw-prose-th-borders);border-bottom-width:1px}.prose :where(thead th):not(:where([class~=not-prose] *)){color:var(--tw-prose-headings);font-weight:600;padding-bottom:.5714286em;padding-left:.5714286em;padding-right:.5714286em;vertical-align:bottom}.prose :where(tbody tr):not(:where([class~=not-prose] *)){border-bottom-color:var(--tw-prose-td-borders);border-bottom-width:1px}.prose :where(tbody tr:last-child):not(:where([class~=not-prose] *)){border-bottom-width:0}.prose :where(tbody td):not(:where([class~=not-prose] *)){padding:.5714286em;vertical-align:baseline}.prose{--tw-prose-body:#374151;--tw-prose-headings:#111827;--tw-prose-lead:#4b5563;--tw-prose-links:#111827;--tw-prose-bold:#111827;--tw-prose-counters:#6b7280;--tw-prose-bullets:#d1d5db;--tw-prose-hr:#e5e7eb;--tw-prose-quotes:#111827;--tw-prose-quote-borders:#e5e7eb;--tw-prose-captions:#6b7280;--tw-prose-code:#111827;--tw-prose-pre-code:#e5e7eb;--tw-prose-pre-bg:#1f2937;--tw-prose-th-borders:#d1d5db;--tw-prose-td-borders:#e5e7eb;--tw-prose-invert-body:#d1d5db;--tw-prose-invert-headings:#fff;--tw-prose-invert-lead:#9ca3af;--tw-prose-invert-links:#fff;--tw-prose-invert-bold:#fff;--tw-prose-invert-counters:#9ca3af;--tw-prose-invert-bullets:#4b5563;--tw-prose-invert-hr:#374151;--tw-prose-invert-quotes:#f3f4f6;--tw-prose-invert-quote-borders:#374151;--tw-prose-invert-captions:#9ca3af;--tw-prose-invert-code:#fff;--tw-prose-invert-pre-code:#d1d5db;--tw-prose-invert-pre-bg:rgba(0,0,0,.5);--tw-prose-invert-th-borders:#4b5563;--tw-prose-invert-td-borders:#374151;font-size:1rem;line-height:1.75}.prose :where(p):not(:where([class~=not-prose] *)){margin-bottom:1.25em;margin-top:1.25em}.prose :where(img):not(:where([class~=not-prose] *)){margin-bottom:2em;margin-top:2em}.prose :where(video):not(:where([class~=not-prose] *)){margin-bottom:2em;margin-top:2em}.prose :where(figure):not(:where([class~=not-prose] *)){margin-bottom:2em;margin-top:2em}.prose :where(h2 code):not(:where([class~=not-prose] *)){font-size:.875em}.prose :where(h3 code):not(:where([class~=not-prose] *)){font-size:.9em}.prose :where(li):not(:where([class~=not-prose] *)){margin-bottom:.5em;margin-top:.5em}.prose :where(ol>li):not(:where([class~=not-prose] *)){padding-left:.375em}.prose :where(ul>li):not(:where([class~=not-prose] *)){padding-left:.375em}.prose>:where(ul>li p):not(:where([class~=not-prose] *)){margin-bottom:.75em;margin-top:.75em}.prose>:where(ul>li>:first-child):not(:where([class~=not-prose] *)){margin-top:1.25em}.prose>:where(ul>li>:last-child):not(:where([class~=not-prose] *)){margin-bottom:1.25em}.prose>:where(ol>li>:first-child):not(:where([class~=not-prose] *)){margin-top:1.25em}.prose>:where(ol>li>:last-child):not(:where([class~=not-prose] *)){margin-bottom:1.25em}.prose :where(ul ul,ul ol,ol ul,ol ol):not(:where([class~=not-prose] *)){margin-bottom:.75em;margin-top:.75em}.prose :where(hr+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(h2+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(h3+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(h4+*):not(:where([class~=not-prose] *)){margin-top:0}.prose :where(thead th:first-child):not(:where([class~=not-prose] *)){padding-left:0}.prose :where(thead th:last-child):not(:where([class~=not-prose] *)){padding-right:0}.prose :where(tbody td:first-child):not(:where([class~=not-prose] *)){padding-left:0}.prose :where(tbody td:last-child):not(:where([class~=not-prose] *)){padding-right:0}.prose>:where(:first-child):not(:where([class~=not-prose] *)){margin-top:0}.prose>:where(:last-child):not(:where([class~=not-prose] *)){margin-bottom:0}.sr-only{clip:rect(0,0,0,0);border-width:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;white-space:nowrap;width:1px}.relative{position:relative}.sticky{position:-webkit-sticky;position:sticky}.top-0{top:0}.col-span-full{grid-column:1/-1}.row-start-1{grid-row-start:1}.mx-auto{margin-left:auto;margin-right:auto}.mt-3{margin-top:.75rem}.mt-8{margin-top:2rem}.-ml-2{margin-left:-.5rem}.mr-2{margin-right:.5rem}.-ml-1{margin-left:-.25rem}.mb-2{margin-bottom:.5rem}.mb-12{margin-bottom:3rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-16{height:4rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.h-screen{height:100vh}.h-72{height:18rem}.max-h-\\[calc\\(100vh-6rem\\)\\]{max-height:calc(100vh - 6rem)}.max-h-\\[8rem\\]{max-height:8rem}.w-full{width:100%}.w-6{width:1.5rem}.w-5{width:1.25rem}.w-32{width:8rem}.max-w-7xl{max-width:80rem}.max-w-3xl{max-width:48rem}.max-w-6xl{max-width:72rem}.max-w-0{max-width:0}.max-w-5xl{max-width:64rem}.flex-shrink-0,.shrink-0{flex-shrink:0}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.gap-2{gap:.5rem}.rounded-md{border-radius:.375rem}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-b{border-bottom-width:1px}.border-transparent{border-color:transparent}.border-indigo-500{--tw-border-opacity:1;border-color:rgb(99 102 241/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-yellow-400{--tw-border-opacity:1;border-color:rgb(250 204 21/var(--tw-border-opacity))}.border-red-400{--tw-border-opacity:1;border-color:rgb(248 113 113/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-opacity-30{--tw-border-opacity:0.3}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-red-200{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.bg-opacity-40{--tw-bg-opacity:0.4}.p-2{padding:.5rem}.p-4{padding:1rem}.py-12{padding-bottom:3rem;padding-top:3rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-1{padding-left:.25rem;padding-right:.25rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.\\!py-0\\.5{padding-bottom:.125rem!important;padding-top:.125rem!important}.\\!py-0{padding-bottom:0!important;padding-top:0!important}.pt-1{padding-top:.25rem}.pb-2{padding-bottom:.5rem}.pt-2{padding-top:.5rem}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-8xl{font-size:6rem;line-height:1}.text-2xl{font-size:1.5rem;line-height:2rem}.text-5xl{font-size:3rem;line-height:1}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-black{font-weight:900}.font-semibold{font-weight:600}.font-extrabold{font-weight:800}.leading-6{line-height:1.5rem}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.placeholder-gray-500::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity))}.placeholder-gray-500:-ms-input-placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity))}.placeholder-gray-500::placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity))}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-sm{box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-lg{--tw-backdrop-blur:blur(16px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}*{scroll-margin:5rem}html{scroll-behavior:smooth}body{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}a{text-decoration:none}h1,h2,h3,h4,h5,h6{font-family:Cabinet Grotesk,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}.icon{display:inline-flex;height:1.5rem;width:1.5rem}.icon.solid{fill:#64748b}.icon.stroke{stroke:#64748b}.cta{--tw-border-opacity:1;--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity));border-color:rgb(226 232 240/var(--tw-border-opacity));border-radius:.5rem;border-width:1px;font-weight:600;padding:.375rem .5rem;transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.cta:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cta:focus{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.cta:active{--tw-translate-y:0.125rem;--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cta.w-icon{align-items:center;display:flex;gap:.5rem;padding-right:.75rem}.img-cont img{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.article-tags{display:flex;gap:.5rem;padding-bottom:.5rem;padding-top:.5rem}.article-tags .tag{--tw-bg-opacity:1;--tw-text-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity));border-radius:.375rem;color:rgb(51 65 85/var(--tw-text-opacity));font-size:.875rem;line-height:1.25rem;padding:.5rem;padding-bottom:.125rem!important;padding-top:.125rem!important;transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.article-tags .tag:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.page-heading{--tw-bg-opacity:1;background-color:rgb(248 250 252/var(--tw-bg-opacity));padding:3rem}.page-heading>.wrapper,.page-section{margin:auto;max-width:48rem}.page-section{padding:2rem 1rem}.article-list{display:flex;flex-direction:column;gap:1.5rem}.article-item{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity));border-top-width:1px;padding-top:1.5rem}.article-item:first-of-type{border-style:none}.article-item a{-webkit-text-decoration-line:none;text-decoration-line:none}.article-item>*>.wrapper{align-items:flex-start;display:flex;gap:1rem}.hover\\:border-gray-300:hover{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.hover\\:bg-red-500:hover{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.hover\\:bg-red-700:hover{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.hover\\:bg-indigo-600:hover{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.focus\\:border-white:focus{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),0 0 #0000;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-inset:focus{--tw-ring-inset:inset}.focus\\:ring-white:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.focus\\:ring-indigo-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(99 102 241/var(--tw-ring-opacity))}.focus\\:ring-offset-2:focus{--tw-ring-offset-width:2px}.focus\\:ring-offset-gray-800:focus{--tw-ring-offset-color:#1f2937}@media (min-width:640px){.sm\\:mt-0{margin-top:0}.sm\\:ml-3{margin-left:.75rem}.sm\\:flex{display:flex}.sm\\:max-w-xs{max-width:20rem}.sm\\:flex-shrink-0{flex-shrink:0}.sm\\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width:768px){.md\\:col-span-2{grid-column:span 2/span 2}.md\\:col-span-6{grid-column:span 6/span 6}.md\\:col-start-1{grid-column-start:1}.md\\:row-start-1{grid-row-start:1}.md\\:ml-6{margin-left:1.5rem}.md\\:flex{display:flex}.md\\:hidden{display:none}.md\\:space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}}@media (min-width:1024px){.lg\\:mt-0{margin-top:0}.lg\\:ml-8{margin-left:2rem}.lg\\:flex{display:flex}.lg\\:w-0{width:0}.lg\\:flex-1{flex:1 1 0%}.lg\\:items-center{align-items:center}.lg\\:py-16{padding-bottom:4rem;padding-top:4rem}.lg\\:px-8{padding-left:2rem;padding-right:2rem}}";
 }
 
 
@@ -3036,6 +3035,7 @@ Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true
 // Parents: 
 // - /components/content/InfoBox.vue ($id_e10e5808)
 // - /components/Tags.vue ($id_3a31b237)
+// - /components/Navbar.vue ($id_59150d95)
 // Dependencies: 
 // - /node_modules/@heroicons/vue/solid/esm/AcademicCapIcon.js ($id_d5af2aa6)
 // - /node_modules/@heroicons/vue/solid/esm/AdjustmentsIcon.js ($id_0fcb7bc0)
@@ -10486,7 +10486,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, value
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/SiteHeader.vue ($id_01340d67)
+// - /components/Navbar.vue ($id_59150d95)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -10562,7 +10562,7 @@ __vite_ssr_exports__.default = ".info-box[data-v-399a029c]{--tw-border-opacity:1
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /components/SiteHeader.vue ($id_01340d67)
+// - /components/Navbar.vue ($id_59150d95)
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
 
@@ -13834,6 +13834,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // Request: /node_modules/@heroicons/vue/outline/esm/index.js
 // Parents: 
 // - /components/PrevNext.vue ($id_fca51e5c)
+// - /components/Navbar.vue ($id_59150d95)
 // Dependencies: 
 // - /node_modules/@heroicons/vue/outline/esm/AcademicCapIcon.js ($id_8e47f017)
 // - /node_modules/@heroicons/vue/outline/esm/AdjustmentsIcon.js ($id_58abcb04)
@@ -22036,12 +22037,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_ContentList = __vite_ssr_import_2__.default
   const _component_NuxtLink = __vite_ssr_import_3__.default
 
-  _push(`<main${__vite_ssr_import_9__.ssrRenderAttrs(_attrs)}><!-- <header class="page-heading">
-      <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">Saastodon</h1>
-        <p class="font-medium text-lg">The big guy in SaaS</p>
-      </div>
-    </header> -->`)
+  _push(`<main${__vite_ssr_import_9__.ssrRenderAttrs(_attrs)}>`)
   _push(__vite_ssr_import_9__.ssrRenderComponent(_component_Hero, null, null, _parent))
   _push(`<section class="page-section">`)
   _push(__vite_ssr_import_9__.ssrRenderComponent(_component_Tags, null, null, _parent))
@@ -22245,7 +22241,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "bg-gray-800" }, _attrs))}><div class="mx-auto max-w-7xl py-12 px-6 lg:flex lg:items-center lg:py-16 lg:px-8"><div class="lg:w-0 lg:flex-1"><h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl" id="newsletter-headline">Be the hero of your SaaS company.</h2><p class="mt-3 max-w-3xl text-lg leading-6 text-gray-300"> Boiled down, actionable startegies for higher value, higher retention, and higher returns. </p></div><div class="mt-8 lg:mt-0 lg:ml-8"><form class="sm:flex"><label for="email-address" class="sr-only">Email address</label><input id="email-address" name="email-address" type="email" autocomplete="email" required="" class="w-full rounded-md border border-transparent px-5 py-3 placeholder-gray-500 focus:border-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 sm:max-w-xs" placeholder="Your email address"><div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0"><button type="submit" class="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-800">Join FREE</button></div></form><p class="mt-3 text-sm text-gray-300"> We won&#39;t share or sell your email with anyone, anywhere, at anytime, for any reason. </p></div></div></div>`)
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "bg-white" }, _attrs))}><div class="mx-auto max-w-7xl py-12 px-6 lg:flex lg:items-center lg:py-16 lg:px-8"><div class="lg:w-0 lg:flex-1"><h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" id="newsletter-headline">Be the hero of your SaaS company.</h2><p class="mt-3 max-w-3xl text-lg leading-6 text-gray-600"> Boiled down, actionable startegies for higher value, higher retention, and higher returns. </p></div><div class="mt-8 lg:mt-0 lg:ml-8"><form class="sm:flex"><label for="email-address" class="sr-only">Email address</label><input id="email-address" name="email-address" type="email" autocomplete="email" required="" class="w-full rounded-md border border-gray-300 px-5 py-3 placeholder-gray-500 focus:border-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 sm:max-w-xs" placeholder="Your email address"><div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0"><button type="submit" class="flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-5 py-3 text-base font-medium text-white hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-800">Join FREE</button></div></form><p class="mt-3 text-sm text-gray-500"> Saastodon won&#39;t share or sell your email with anyone, anywhere, at any time, for any reason. Ever. </p></div></div></div>`)
 }
 
 
@@ -22991,12 +22987,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_ContentList = __vite_ssr_import_2__.default
   const _component_NuxtLink = __vite_ssr_import_3__.default
 
-  _push(`<main${__vite_ssr_import_9__.ssrRenderAttrs(_attrs)}><!-- <header class="page-heading">
-      <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">Saastodon</h1>
-        <p class="font-medium text-lg">The big guy in SaaS</p>
-      </div>
-    </header> -->`)
+  _push(`<main${__vite_ssr_import_9__.ssrRenderAttrs(_attrs)}>`)
   _push(__vite_ssr_import_9__.ssrRenderComponent(_component_Hero, null, null, _parent))
   _push(`<section class="page-section">`)
   _push(__vite_ssr_import_9__.ssrRenderComponent(_component_Tags, null, null, _parent))
@@ -24174,13 +24165,13 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // Parents: 
 // - /@id/virtual:nuxt:C:/Users/Tony/Documents/Netlify Projects/saastodon/.nuxt/app-component.mjs ($id_87fe37cb)
 // Dependencies: 
-// - /components/SiteHeader.vue ($id_01340d67)
+// - /components/Navbar.vue ($id_59150d95)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_2b46e842 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/SiteHeader.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Navbar.vue");
 
 const _sfc_main = {}
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -24189,11 +24180,11 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_SiteHeader = __vite_ssr_import_0__.default
+  const _component_Navbar = __vite_ssr_import_0__.default
   const _component_NuxtPage = __vite_ssr_import_1__.resolveComponent("NuxtPage")
 
   _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(_attrs)}>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_SiteHeader, null, null, _parent))
+  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_Navbar, null, null, _parent))
   _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtPage, null, null, _parent))
   _push(`</div>`)
 }
@@ -24214,92 +24205,504 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 
 
 // --------------------
-// Request: /components/SiteHeader.vue
+// Request: /components/Navbar.vue
 // Parents: 
 // - /app.vue ($id_2b46e842)
 // Dependencies: 
-// - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// - /node_modules/@heroicons/vue/outline/esm/index.js ($id_d0ea4942)
+// - /node_modules/@heroicons/vue/solid/esm/index.js ($id_d0e43518)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /components/SiteHeader.vue?vue&type=style&index=0&scoped=true&lang.css ($id_069b350e)
+// - /components/Navbar.vue?vue&type=style&index=0&scoped=true&lang.css ($id_36f491e3)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
-const $id_01340d67 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
+const $id_59150d95 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/headlessui.esm.js");
 
-const _sfc_main = {}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+    const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/outline/esm/index.js");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+    const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@heroicons/vue/solid/esm/index.js");
 
 
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  const _component_NuxtLink = __vite_ssr_import_0__.default
+const _sfc_main = {
+  __name: 'Navbar',
+  setup(__props, { expose }) {
+  expose();
 
-  _push(`<header${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "site-header" }, _attrs))} data-v-5697464f><div class="wrapper" data-v-5697464f>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, {
-    to: "/",
-    class: "no-underline"
-  }, {
-    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
+    
+const __returned__ = { get Disclosure() { return __vite_ssr_import_0__.Disclosure }, get DisclosureButton() { return __vite_ssr_import_0__.DisclosureButton }, get DisclosurePanel() { return __vite_ssr_import_0__.DisclosurePanel }, get Menu() { return __vite_ssr_import_0__.Menu }, get MenuButton() { return __vite_ssr_import_0__.MenuButton }, get MenuItem() { return __vite_ssr_import_0__.MenuItem }, get MenuItems() { return __vite_ssr_import_0__.MenuItems }, get Bars3Icon() { return __vite_ssr_import_1__.Bars3Icon }, get BellIcon() { return __vite_ssr_import_1__.BellIcon }, get XMarkIcon() { return __vite_ssr_import_1__.XMarkIcon }, get PlusIcon() { return __vite_ssr_import_2__.PlusIcon } }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(__vite_ssr_import_4__.ssrRenderComponent($setup["Disclosure"], __vite_ssr_import_3__.mergeProps({
+    as: "nav",
+    class: "site-nav bg-white shadow"
+  }, _attrs), {
+    default: __vite_ssr_import_3__.withCtx(({ open }, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<figure class="site-logo" data-v-5697464f${
+        _push(`<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" data-v-cfc91daa${
           _scopeId
-        }><h1 data-v-5697464f${
+        }><div class="flex h-16 justify-between" data-v-cfc91daa${
           _scopeId
-        }>Saastodon</h1></figure>`)
+        }><div class="flex" data-v-cfc91daa${
+          _scopeId
+        }><div class="-ml-2 mr-2 flex items-center md:hidden" data-v-cfc91daa${
+          _scopeId
+        }><!-- Mobile menu button -->`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent($setup["DisclosureButton"], { class: "inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`<span class="sr-only" data-v-cfc91daa${_scopeId}>Open main menu</span>`)
+              if (!open) {
+                _push(__vite_ssr_import_4__.ssrRenderComponent($setup["Bars3Icon"], {
+                  class: "block h-6 w-6",
+                  "aria-hidden": "true"
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_4__.ssrRenderComponent($setup["XMarkIcon"], {
+                  class: "block h-6 w-6",
+                  "aria-hidden": "true"
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Open main menu"),
+                (!open)
+                  ? (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["Bars3Icon"], {
+                      key: 0,
+                      class: "block h-6 w-6",
+                      "aria-hidden": "true"
+                    }))
+                  : (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["XMarkIcon"], {
+                      key: 1,
+                      class: "block h-6 w-6",
+                      "aria-hidden": "true"
+                    }))
+              ]
+            }
+          }),
+          _: 2 /* DYNAMIC */
+        }, _parent, _scopeId))
+        _push(`</div><div class="flex flex-shrink-0 items-center" data-v-cfc91daa${
+          _scopeId
+        }><h1 data-v-cfc91daa${
+          _scopeId
+        }>Saastodon Logo</h1></div><div class="hidden md:ml-6 md:flex md:space-x-8" data-v-cfc91daa${
+          _scopeId
+        }><!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --><a href="/blog" class="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900" data-v-cfc91daa${
+          _scopeId
+        }>News</a><a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" data-v-cfc91daa${
+          _scopeId
+        }>Podcast</a><a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" data-v-cfc91daa${
+          _scopeId
+        }>Youtube</a><a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700" data-v-cfc91daa${
+          _scopeId
+        }>Newsletter</a></div></div><div class="flex items-center" data-v-cfc91daa${
+          _scopeId
+        }><div class="flex-shrink-0" data-v-cfc91daa${
+          _scopeId
+        }><button type="button" class="relative inline-flex items-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" data-v-cfc91daa${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_4__.ssrRenderComponent($setup["PlusIcon"], {
+          class: "-ml-1 mr-2 h-5 w-5",
+          "aria-hidden": "true"
+        }, null, _parent, _scopeId))
+        _push(`<span data-v-cfc91daa${_scopeId}>Join FREE</span></button></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_1__.createVNode("figure", { class: "site-logo" }, [
-            __vite_ssr_import_1__.createVNode("h1", null, "Saastodon")
+          __vite_ssr_import_3__.createVNode("div", { class: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" }, [
+            __vite_ssr_import_3__.createVNode("div", { class: "flex h-16 justify-between" }, [
+              __vite_ssr_import_3__.createVNode("div", { class: "flex" }, [
+                __vite_ssr_import_3__.createVNode("div", { class: "-ml-2 mr-2 flex items-center md:hidden" }, [
+                  __vite_ssr_import_3__.createCommentVNode(" Mobile menu button "),
+                  __vite_ssr_import_3__.createVNode($setup["DisclosureButton"], { class: "inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" }, {
+                    default: __vite_ssr_import_3__.withCtx(() => [
+                      __vite_ssr_import_3__.createVNode("span", { class: "sr-only" }, "Open main menu"),
+                      (!open)
+                        ? (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["Bars3Icon"], {
+                            key: 0,
+                            class: "block h-6 w-6",
+                            "aria-hidden": "true"
+                          }))
+                        : (__vite_ssr_import_3__.openBlock(), __vite_ssr_import_3__.createBlock($setup["XMarkIcon"], {
+                            key: 1,
+                            class: "block h-6 w-6",
+                            "aria-hidden": "true"
+                          }))
+                    ]),
+                    _: 2 /* DYNAMIC */
+                  }, 1024 /* DYNAMIC_SLOTS */)
+                ]),
+                __vite_ssr_import_3__.createVNode("div", { class: "flex flex-shrink-0 items-center" }, [
+                  __vite_ssr_import_3__.createVNode("h1", null, "Saastodon Logo")
+                ]),
+                __vite_ssr_import_3__.createVNode("div", { class: "hidden md:ml-6 md:flex md:space-x-8" }, [
+                  __vite_ssr_import_3__.createCommentVNode(" Current: \"border-indigo-500 text-gray-900\", Default: \"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700\" "),
+                  __vite_ssr_import_3__.createVNode("a", {
+                    href: "/blog",
+                    class: "inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                  }, "News"),
+                  __vite_ssr_import_3__.createVNode("a", {
+                    href: "#",
+                    class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  }, "Podcast"),
+                  __vite_ssr_import_3__.createVNode("a", {
+                    href: "#",
+                    class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  }, "Youtube"),
+                  __vite_ssr_import_3__.createVNode("a", {
+                    href: "#",
+                    class: "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  }, "Newsletter")
+                ])
+              ]),
+              __vite_ssr_import_3__.createVNode("div", { class: "flex items-center" }, [
+                __vite_ssr_import_3__.createVNode("div", { class: "flex-shrink-0" }, [
+                  __vite_ssr_import_3__.createVNode("button", {
+                    type: "button",
+                    class: "relative inline-flex items-center rounded-md border border-transparent bg-red-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                  }, [
+                    __vite_ssr_import_3__.createVNode($setup["PlusIcon"], {
+                      class: "-ml-1 mr-2 h-5 w-5",
+                      "aria-hidden": "true"
+                    }),
+                    __vite_ssr_import_3__.createVNode("span", null, "Join FREE")
+                  ])
+                ])
+              ])
+            ])
           ])
         ]
       }
     }),
     _: 1 /* STABLE */
   }, _parent))
-  _push(`<nav class="site-nav" data-v-5697464f><ul class="links" data-v-5697464f><li class="link" data-v-5697464f>`)
-  _push(__vite_ssr_import_2__.ssrRenderComponent(_component_NuxtLink, { to: "/blog" }, {
-    default: __vite_ssr_import_1__.withCtx((_, _push, _parent, _scopeId) => {
-      if (_push) {
-        _push(`Blog`)
-      } else {
-        return [
-          __vite_ssr_import_1__.createTextVNode("Blog")
-        ]
-      }
-    }),
-    _: 1 /* STABLE */
-  }, _parent))
-  _push(`<span data-v-5697464f> | </span></li></ul></nav></div></header>`)
 }
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/SiteHeader.vue?vue&type=style&index=0&scoped=true&lang.css");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Navbar.vue?vue&type=style&index=0&scoped=true&lang.css");
 
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_4__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/SiteHeader.vue")
+  const ssrContext = __vite_ssr_import_6__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Navbar.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-5697464f"],['__file',"C:/Users/Tony/Documents/Netlify Projects/saastodon/components/SiteHeader.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-cfc91daa"],['__file',"C:/Users/Tony/Documents/Netlify Projects/saastodon/components/Navbar.vue"]]);
 }
 
 
 // --------------------
-// Request: /components/SiteHeader.vue?vue&type=style&index=0&scoped=true&lang.css
+// Request: /node_modules/@headlessui/vue/dist/headlessui.esm.js
 // Parents: 
-// - /components/SiteHeader.vue ($id_01340d67)
+// - /components/Navbar.vue ($id_59150d95)
+// Dependencies: 
+// - /node_modules/@headlessui/vue/dist/components/combobox/combobox.js ($id_92aab129)
+// - /node_modules/@headlessui/vue/dist/components/dialog/dialog.js ($id_b07f1154)
+// - /node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js ($id_90ea7d3e)
+// - /node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js ($id_58899675)
+// - /node_modules/@headlessui/vue/dist/components/listbox/listbox.js ($id_2feddcbf)
+// - /node_modules/@headlessui/vue/dist/components/menu/menu.js ($id_b1042eef)
+// - /node_modules/@headlessui/vue/dist/components/popover/popover.js ($id_f86ffab2)
+// - /node_modules/@headlessui/vue/dist/components/portal/portal.js ($id_1d43fca2)
+// - /node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js ($id_0e8af24b)
+// - /node_modules/@headlessui/vue/dist/components/switch/switch.js ($id_44a1a907)
+// - /node_modules/@headlessui/vue/dist/components/tabs/tabs.js ($id_6cd55209)
+// - /node_modules/@headlessui/vue/dist/components/transitions/transition.js ($id_99377655)
+// --------------------
+const $id_2c13895f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/combobox/combobox.js");
+__vite_ssr_exportAll__(__vite_ssr_import_0__);const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/dialog/dialog.js");
+__vite_ssr_exportAll__(__vite_ssr_import_1__);const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js");
+__vite_ssr_exportAll__(__vite_ssr_import_2__);const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js");
+__vite_ssr_exportAll__(__vite_ssr_import_3__);const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/listbox/listbox.js");
+__vite_ssr_exportAll__(__vite_ssr_import_4__);const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/menu/menu.js");
+__vite_ssr_exportAll__(__vite_ssr_import_5__);const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/popover/popover.js");
+__vite_ssr_exportAll__(__vite_ssr_import_6__);const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/portal/portal.js");
+__vite_ssr_exportAll__(__vite_ssr_import_7__);const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js");
+__vite_ssr_exportAll__(__vite_ssr_import_8__);const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/switch/switch.js");
+__vite_ssr_exportAll__(__vite_ssr_import_9__);const __vite_ssr_import_10__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/tabs/tabs.js");
+__vite_ssr_exportAll__(__vite_ssr_import_10__);const __vite_ssr_import_11__ = await __vite_ssr_import__("/node_modules/@headlessui/vue/dist/components/transitions/transition.js");
+__vite_ssr_exportAll__(__vite_ssr_import_11__);
+;
+}
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/combobox/combobox.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
 // Dependencies: 
 
 // --------------------
-const $id_069b350e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".site-header[data-v-5697464f]{--tw-border-opacity:0.3;--tw-bg-opacity:0.4;--tw-backdrop-blur:blur(16px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);background-color:rgb(241 245 249/var(--tw-bg-opacity));border-bottom-width:2px;border-color:rgb(255 255 255/var(--tw-border-opacity));padding:1rem;position:-webkit-sticky;position:sticky;top:0;width:100%;z-index:20}.site-header>.wrapper[data-v-5697464f]{align-items:center;display:flex;justify-content:space-between;margin:auto;max-width:72rem}.site-logo[data-v-5697464f]{font-size:1.125rem;font-weight:900;line-height:1.75rem}";
+const $id_92aab129 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/combobox/combobox.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/combobox/combobox.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/dialog/dialog.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_b07f1154 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/dialog/dialog.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/dialog/dialog.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_90ea7d3e = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_58899675 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/listbox/listbox.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_2feddcbf = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/listbox/listbox.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/listbox/listbox.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/menu/menu.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_b1042eef = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/menu/menu.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/menu/menu.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/popover/popover.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_f86ffab2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/popover/popover.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/popover/popover.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/portal/portal.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_1d43fca2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/portal/portal.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/portal/portal.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_0e8af24b = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/switch/switch.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_44a1a907 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/switch/switch.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/switch/switch.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/tabs/tabs.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_6cd55209 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/tabs/tabs.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/tabs/tabs.js\".")
+  })
+
+
+// --------------------
+// Request: /node_modules/@headlessui/vue/dist/components/transitions/transition.js
+// Parents: 
+// - /node_modules/@headlessui/vue/dist/headlessui.esm.js ($id_2c13895f)
+// Dependencies: 
+
+// --------------------
+const $id_99377655 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file:///C:/Users/Tony/Documents/Netlify%20Projects/saastodon/node_modules/@headlessui/vue/dist/components/transitions/transition.js")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"C:/Users/Tony/Documents/Netlify Projects/saastodon/node_modules/@headlessui/vue/dist/components/transitions/transition.js\".")
+  })
+
+
+// --------------------
+// Request: /components/Navbar.vue?vue&type=style&index=0&scoped=true&lang.css
+// Parents: 
+// - /components/Navbar.vue ($id_59150d95)
+// Dependencies: 
+
+// --------------------
+const $id_36f491e3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".site-nav[data-v-cfc91daa]{--tw-border-opacity:0.3;--tw-bg-opacity:0.4;--tw-backdrop-blur:blur(16px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);background-color:rgb(241 245 249/var(--tw-bg-opacity));border-bottom-width:2px;border-color:rgb(255 255 255/var(--tw-border-opacity));padding:1rem;position:-webkit-sticky;position:sticky;top:0;width:100%;z-index:20}";
 }
 
 
@@ -24897,8 +25300,21 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
   "/@id/virtual:nuxt:C:/Users/Tony/Documents/Netlify Projects/saastodon/.nuxt/app-component.mjs": $id_87fe37cb,
   "/app.vue": $id_2b46e842,
-  "/components/SiteHeader.vue": $id_01340d67,
-  "/components/SiteHeader.vue?vue&type=style&index=0&scoped=true&lang.css": $id_069b350e
+  "/components/Navbar.vue": $id_59150d95,
+  "/node_modules/@headlessui/vue/dist/headlessui.esm.js": $id_2c13895f,
+  "/node_modules/@headlessui/vue/dist/components/combobox/combobox.js": $id_92aab129,
+  "/node_modules/@headlessui/vue/dist/components/dialog/dialog.js": $id_b07f1154,
+  "/node_modules/@headlessui/vue/dist/components/disclosure/disclosure.js": $id_90ea7d3e,
+  "/node_modules/@headlessui/vue/dist/components/focus-trap/focus-trap.js": $id_58899675,
+  "/node_modules/@headlessui/vue/dist/components/listbox/listbox.js": $id_2feddcbf,
+  "/node_modules/@headlessui/vue/dist/components/menu/menu.js": $id_b1042eef,
+  "/node_modules/@headlessui/vue/dist/components/popover/popover.js": $id_f86ffab2,
+  "/node_modules/@headlessui/vue/dist/components/portal/portal.js": $id_1d43fca2,
+  "/node_modules/@headlessui/vue/dist/components/radio-group/radio-group.js": $id_0e8af24b,
+  "/node_modules/@headlessui/vue/dist/components/switch/switch.js": $id_44a1a907,
+  "/node_modules/@headlessui/vue/dist/components/tabs/tabs.js": $id_6cd55209,
+  "/node_modules/@headlessui/vue/dist/components/transitions/transition.js": $id_99377655,
+  "/components/Navbar.vue?vue&type=style&index=0&scoped=true&lang.css": $id_36f491e3
 }
 
 

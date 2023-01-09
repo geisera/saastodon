@@ -19,12 +19,6 @@ useHead({
 </script>
 <template>
   <main>
-    <!-- <header class="page-heading">
-      <div class="wrapper">
-        <h1 class="text-5xl font-extrabold">Saastodon</h1>
-        <p class="font-medium text-lg">The big guy in SaaS</p>
-      </div>
-    </header> -->
     <Hero />
     <section class="page-section">
       <Tags />
