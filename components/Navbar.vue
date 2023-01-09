@@ -1,5 +1,5 @@
 <template>
-    <Disclosure as="nav" class="site-nav bg-white shadow" v-slot="{ open }">
+    <Disclosure as="nav" class="bg-white shadow" v-slot="{ open }">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 justify-between">
           <div class="flex">
@@ -12,14 +12,12 @@
               </DisclosureButton>
             </div>
             <div class="flex flex-shrink-0 items-center">
-                <h1>Saastodon Logo</h1>
+              <h1>SAASTODON</h1>
             </div>
             <div class="hidden md:ml-6 md:flex md:space-x-8">
               <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
               <a href="/blog" class="inline-flex items-center border-b-2 border-red-500 px-1 pt-1 text-sm font-medium text-gray-900">News</a>
-              <a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-900">Podcast</a>
-              <a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-900">Youtube</a>
-              <a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-900">Newsletter</a>
+              <a href="#" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Team</a>
             </div>
           </div>
           <div class="flex items-center">
@@ -32,8 +30,16 @@
           </div>
         </div>
       </div>
+  
+      <DisclosurePanel class="md:hidden">
+        <div class="space-y-1 pt-2 pb-3">
+          <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+          <DisclosureButton as="a" href="/blog" class="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700 sm:pl-5 sm:pr-6">News</DisclosureButton>
+          <DisclosureButton as="a" href="#" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6">Team</DisclosureButton>
+        </div>
+      </DisclosurePanel>
     </Disclosure>
-</template>
+  </template>
 
 <script setup>
     import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
