@@ -29,6 +29,8 @@
                 flex 
                 flex-shrink-0 
                 items-center
+                font-black
+                text-xlg
             ">
               <h1>SAASTODON</h1>
             </div>

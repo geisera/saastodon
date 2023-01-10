@@ -16,7 +16,7 @@ const filter = slug.split(",");
 
 // set meta for page
 useHead({
-  title: `All articles with ${slug}`,
+  title: `Tagged with ${slug}`,
   meta: [{ name: "description", content: "Here's a list of all my great articles" }],
 });
 </script>

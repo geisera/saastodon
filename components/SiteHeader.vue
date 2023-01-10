@@ -8,7 +8,6 @@
           <h1>Saastodon</h1>
         </figure>
       </NuxtLink>
-
       <nav class="site-nav">
         <ul class="links">
           <li class="link">
