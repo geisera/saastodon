@@ -17,7 +17,7 @@
                   focus:outline-none 
                   focus:ring-2 
                   focus:ring-inset 
-                  focus:ring-indigo-500
+                  focus:ring-red-500
                   ">
                 <span class="sr-only">Open main menu</span>
                 <MenuIcon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
@@ -30,37 +30,33 @@
                 flex-shrink-0 
                 items-center
                 font-black
-                text-xlg
+                text-xl
             ">
               <h1>SAASTODON</h1>
             </div>
             <div class="hidden md:ml-6 md:flex md:space-x-8">
+              
               <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-              <a href="/blog" 
-                class="
-                inline-flex 
-                items-center 
-                border-b-2 
-                border-red-500 
-                px-1 pt-1 
-                text-sm 
-                font-medium 
-                text-gray-900
-                ">News</a>
-              <a href="#" 
-                class="
+                <div class="
                   inline-flex 
                   items-center 
-                  border-b-2 
-                  border-transparent 
                   px-1 
                   pt-1 
-                  text-sm 
-                  font-medium 
-                  text-gray-500 
-                  hover:border-gray-300 
-                  hover:text-gray-700
-                  ">Team</a>
+                  text-lg 
+                  font-bold 
+                  text-gray-900"
+                  >
+                  <div class="flex space-x-4">
+                    <a v-for="
+                      item in navigation" 
+                      :key="item.name" 
+                      :href="item.href" 
+                      :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-800 hover:bg-gray-200', 'px-3 py-2 rounded-md text-sm font-medium']" 
+                      :aria-current="item.current ? 'page' : undefined">
+                      {{ item.name }}
+                    </a>
+                  </div>
+                </div>
             </div>
           </div>
           <div class="flex items-center">
@@ -95,19 +91,31 @@
       </div>
       <!-- hidden mobile navigation -->
       <DisclosurePanel class="md:hidden">
-        <div class="space-y-1 pt-2 pb-3">
+        <div class="space-y-1 pt-2 pb-3"
+        v-for="
+            item in navigation" 
+            :key="item.name" 
+            :href="item.href"  
+            :aria-current="item.current ? 'page' : undefined"
+            >
           <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
-          <DisclosureButton as="a" href="/blog" class="block border-l-4 border-red-500 bg-red-50 py-2 pl-3 pr-4 text-base font-medium text-red-700 sm:pl-5 sm:pr-6">News</DisclosureButton>
-          <DisclosureButton as="a" href="#" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6">?</DisclosureButton>
+          <DisclosureButton as="a" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700 sm:pl-5 sm:pr-6">{{ item.name }}</DisclosureButton>
         </div>
       </DisclosurePanel>
     </Disclosure>
   </template>
 
 <script setup>
-    import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-    import { MenuIcon, XIcon } from '@heroicons/vue/outline'
-    import { PlusIcon } from '@heroicons/vue/solid'
+  import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+  import { MenuIcon, XIcon } from '@heroicons/vue/outline'
+  import { PlusIcon } from '@heroicons/vue/solid'
+
+  const navigation = [
+    { name: 'NEWS', href: '/blog', current: false },
+    { name: 'NEWSLETTER', href: '/blog', current: false },
+    { name: 'YOUTUBE', href: '/blog', current: false },
+    { name: 'PODCAST', href: '/blog', current: false },
+  ]
 </script>
 
 <style scoped>
