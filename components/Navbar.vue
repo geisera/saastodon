@@ -112,9 +112,6 @@
 
   const navigation = [
     { name: 'NEWS', href: '/blog', current: false },
-    { name: 'NEWSLETTER', href: '/blog', current: false },
-    { name: 'YOUTUBE', href: '/blog', current: false },
-    { name: 'PODCAST', href: '/blog', current: false },
   ]
 </script>
 
