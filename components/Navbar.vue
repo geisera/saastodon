@@ -32,7 +32,7 @@
                 font-black
                 text-xl
             ">
-              <h1>SAASTODON</h1>
+              <h1><nuxt-link to="/blog">SAASTODON</nuxt-link></h1>
             </div>
             <div class="hidden md:ml-6 md:flex md:space-x-8">
               
